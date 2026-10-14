@@ -1,9 +1,9 @@
 import unittest
 import src
 
-class TestProjectInitialization(unittest.TestCase):
-    def test_version_exists(self):
-        self.assertIsNotNone(src.__version__)
+class TestProjectStructure(unittest.TestCase):
+    def test_imports(self):
+        self.assertIsNotNone(src)
 
 if __name__ == "__main__":
     unittest.main()

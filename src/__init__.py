@@ -1,2 +1,1 @@
-"""Paquete principal para Sentence Mining Anki."""
-__version__ = "0.1.0"
+"""Paquete raíz de la aplicación."""
